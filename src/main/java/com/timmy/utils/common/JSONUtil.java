@@ -11,14 +11,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-/**
- * Copyright @2015 海尔集团 All rights reserved.
- * 广科数字技术有限公司专有/保密源代码,未经许可禁止任何人通过任何渠道使用、修改源代码.
- *
- * JSON工具类
- * @author LIWT
- * @create 2015年11月25日上午11:22:26
- */
 public final class JSONUtil {
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
     private static final Logger LOGGER = LoggerFactory.getLogger(JSONUtil.class);

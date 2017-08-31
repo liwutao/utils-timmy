@@ -3,14 +3,6 @@ package com.timmy.utils.common;
 import java.util.Collection;
 import java.util.List;
 
-/**
- * Copyright @2015 海尔集团 All rights reserved.
- * 广科数字技术有限公司专有/保密源代码,未经许可禁止任何人通过任何渠道使用、修改源代码.
- *
- * 集合类工具集合类
- * @author LIWT
- * @create 2015年11月20日 上午11:00:07
- */
 public final class CollectionUtil {
 
     public static boolean isEmpty(Collection<?> collection) {
